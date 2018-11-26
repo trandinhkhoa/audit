@@ -1,0 +1,92 @@
+nmap -sA -T4 192.168.142.0/24
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-11-26 13:33 CET
+Nmap scan report for im2ag-fw-to-im2ag-priv-deploiement.u-ga.fr (192.168.142.1)
+Host is up (0.0016s latency).
+All 1000 scanned ports on im2ag-fw-to-im2ag-priv-deploiement.u-ga.fr (192.168.142.1) are filtered
+MAC Address: 08:81:F4:C0:DB:10 (Juniper Networks)
+
+Nmap scan report for ima-crypto.u-ga.fr (192.168.142.2)
+Host is up (0.00018s latency).
+All 1000 scanned ports on ima-crypto.u-ga.fr (192.168.142.2) are unfiltered
+MAC Address: 02:35:64:12:54:24 (Unknown)
+
+Nmap scan report for 192.168.142.13
+Host is up (0.00011s latency).
+All 1000 scanned ports on 192.168.142.13 are unfiltered
+MAC Address: B8:CA:3A:83:C3:7A (Dell)
+
+Nmap scan report for 192.168.142.14
+Host is up (0.00011s latency).
+All 1000 scanned ports on 192.168.142.14 are unfiltered
+MAC Address: B8:CA:3A:83:E2:D3 (Dell)
+
+Nmap scan report for 192.168.142.16
+Host is up (0.00014s latency).
+All 1000 scanned ports on 192.168.142.16 are unfiltered
+MAC Address: B8:CA:3A:81:60:7A (Dell)
+
+Nmap scan report for 192.168.142.19
+Host is up (0.00012s latency).
+All 1000 scanned ports on 192.168.142.19 are unfiltered
+MAC Address: B8:CA:3A:84:12:53 (Dell)
+
+Nmap scan report for 192.168.142.21
+Host is up (0.00011s latency).
+All 1000 scanned ports on 192.168.142.21 are unfiltered
+MAC Address: B8:CA:3A:83:C3:51 (Dell)
+
+Nmap scan report for 192.168.142.23
+Host is up (0.00014s latency).
+All 1000 scanned ports on 192.168.142.23 are unfiltered
+MAC Address: B8:CA:3A:84:2A:5C (Dell)
+
+Nmap scan report for 192.168.142.35
+Host is up (0.00010s latency).
+All 1000 scanned ports on 192.168.142.35 are unfiltered
+MAC Address: B8:CA:3A:81:5D:8F (Dell)
+
+Nmap scan report for 192.168.142.36
+Host is up (0.00010s latency).
+All 1000 scanned ports on 192.168.142.36 are unfiltered
+MAC Address: B8:CA:3A:81:5D:6B (Dell)
+
+Nmap scan report for 192.168.142.40
+Host is up (0.000099s latency).
+All 1000 scanned ports on 192.168.142.40 are unfiltered
+MAC Address: B8:CA:3A:84:2D:D7 (Dell)
+
+Nmap scan report for 192.168.142.45
+Host is up (0.000087s latency).
+All 1000 scanned ports on 192.168.142.45 are unfiltered
+MAC Address: B8:CA:3A:84:0E:FA (Dell)
+
+Nmap scan report for 192.168.142.150
+Host is up (0.00014s latency).
+All 1000 scanned ports on 192.168.142.150 are unfiltered
+MAC Address: B8:CA:3A:84:10:1B (Dell)
+
+Nmap scan report for 192.168.142.170
+Host is up (0.00010s latency).
+All 1000 scanned ports on 192.168.142.170 are unfiltered
+MAC Address: B8:CA:3A:81:63:2B (Dell)
+
+Nmap scan report for 192.168.142.180
+Host is up (0.00077s latency).
+All 1000 scanned ports on 192.168.142.180 are filtered
+MAC Address: 54:EE:75:D8:D8:B5 (Wistron InfoComm(Kunshan)Co.)
+
+Nmap scan report for 192.168.142.185
+Host is up (0.00076s latency).
+All 1000 scanned ports on 192.168.142.185 are filtered
+MAC Address: 68:B5:99:FD:66:BA (Hewlett Packard)
+
+Nmap scan report for 192.168.142.186
+Host is up (0.00021s latency).
+All 1000 scanned ports on 192.168.142.186 are filtered
+MAC Address: 00:E0:4C:68:00:65 (Realtek Semiconductor)
+
+Nmap scan report for 192.168.142.188
+Host is up (0.0000050s latency).
+All 1000 scanned ports on 192.168.142.188 are unfiltered
+
+Nmap done: 256 IP addresses (18 hosts up) scanned in 10.58 seconds

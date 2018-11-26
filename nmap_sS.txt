@@ -1,0 +1,153 @@
+nmap -sS -T4 192.168.142.0/24
+
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-11-26 13:28 CET
+Nmap scan report for im2ag-fw-to-im2ag-priv-deploiement.u-ga.fr (192.168.142.1)
+Host is up (0.023s latency).
+Not shown: 999 filtered ports
+PORT      STATE  SERVICE
+33899/tcp closed unknown
+MAC Address: 08:81:F4:C0:DB:10 (Juniper Networks)
+
+Nmap scan report for ima-crypto.u-ga.fr (192.168.142.2)
+Host is up (0.00019s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+2049/tcp open  nfs
+MAC Address: 02:35:64:12:54:24 (Unknown)
+
+Nmap scan report for 192.168.142.13
+Host is up (0.00011s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+902/tcp open  iss-realsecure
+MAC Address: B8:CA:3A:83:C3:7A (Dell)
+
+Nmap scan report for 192.168.142.14
+Host is up (0.00011s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+902/tcp  open  iss-realsecure
+3000/tcp open  ppp
+MAC Address: B8:CA:3A:83:E2:D3 (Dell)
+
+Nmap scan report for 192.168.142.16
+Host is up (0.00013s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+902/tcp open  iss-realsecure
+MAC Address: B8:CA:3A:81:60:7A (Dell)
+
+Nmap scan report for 192.168.142.19
+Host is up (0.00011s latency).
+Not shown: 999 closed ports
+PORT     STATE SERVICE
+3000/tcp open  ppp
+MAC Address: B8:CA:3A:84:12:53 (Dell)
+
+Nmap scan report for 192.168.142.21
+Host is up (0.00010s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+902/tcp open  iss-realsecure
+MAC Address: B8:CA:3A:83:C3:51 (Dell)
+
+Nmap scan report for 192.168.142.23
+Host is up (0.00014s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+902/tcp open  iss-realsecure
+MAC Address: B8:CA:3A:84:2A:5C (Dell)
+
+Nmap scan report for 192.168.142.35
+Host is up (0.00012s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+902/tcp open  iss-realsecure
+MAC Address: B8:CA:3A:81:5D:8F (Dell)
+
+Nmap scan report for 192.168.142.36
+Host is up (0.00013s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+902/tcp open  iss-realsecure
+MAC Address: B8:CA:3A:81:5D:6B (Dell)
+
+Nmap scan report for 192.168.142.40
+Host is up (0.00016s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+902/tcp open  iss-realsecure
+MAC Address: B8:CA:3A:84:2D:D7 (Dell)
+
+Nmap scan report for 192.168.142.45
+Host is up (0.00011s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+902/tcp open  iss-realsecure
+MAC Address: B8:CA:3A:84:0E:FA (Dell)
+
+Nmap scan report for 192.168.142.150
+Host is up (0.00011s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+902/tcp open  iss-realsecure
+MAC Address: B8:CA:3A:84:10:1B (Dell)
+
+Nmap scan report for 192.168.142.170
+Host is up (0.00012s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+902/tcp open  iss-realsecure
+MAC Address: B8:CA:3A:81:63:2B (Dell)
+
+Nmap scan report for 192.168.142.180
+Host is up (0.00070s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 54:EE:75:D8:D8:B5 (Wistron InfoComm(Kunshan)Co.)
+
+Nmap scan report for 192.168.142.185
+Host is up (0.00034s latency).
+All 1000 scanned ports on 192.168.142.185 are filtered
+MAC Address: 68:B5:99:FD:66:BA (Hewlett Packard)
+
+Nmap scan report for 192.168.142.186
+Host is up (0.00028s latency).
+Not shown: 997 filtered ports
+PORT     STATE SERVICE
+3306/tcp open  mysql
+4443/tcp open  pharos
+8080/tcp open  http-proxy
+MAC Address: 00:E0:4C:68:00:65 (Realtek Semiconductor)
+
+Nmap scan report for 192.168.142.188
+Host is up (0.0000050s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+902/tcp open  iss-realsecure
+
+Nmap done: 256 IP addresses (18 hosts up) scanned in 19.59 seconds
